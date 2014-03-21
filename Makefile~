@@ -77,4 +77,3 @@ $(OUTDIR)/%.o: %.s
 clean:
 	rm -rf $(OUTDIR)
 
--include $(DEP)

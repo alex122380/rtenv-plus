@@ -1,0 +1,12 @@
+test-strlen.in
+test-strcpy.in
+test-strcmp.in
+test-strncmp.in
+test-cmdtok.in
+test-itoa.in
+test-find_events.in
+test-find_envvar.in
+test-fill_arg.in
+test-export_envvar.in
+c
+

@@ -6,7 +6,7 @@
 #include "event-monitor.h"
 #include <stddef.h>
 
-#if 1 // for lab27 test; we copy from kernel.c
+#ifdef DEBUG // for lab27 test; we copy from kernel.c
 #define MAX_CMDNAME 19
 #define MAX_ARGC 19
 #define MAX_CMDHELP 1023

@@ -6,8 +6,7 @@
 
 #include "syscall.h"
 
-// from lab27
-#if 1
+#ifdef DEBUG
 #include "unit_test.h"
 #endif
 
@@ -995,8 +994,7 @@ int main()
 		current_task = task->pid;
 	}
 
-// for lab27
-#if 1
+#ifdef DEBUG
 	unit_test();
 #endif
 

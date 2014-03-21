@@ -1,0 +1,2 @@
+check_data/test-strlen.in:3: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
